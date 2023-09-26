@@ -20,11 +20,11 @@ class Attributes(Leart):
 	
 	@property
 	def life() -> Tuple[list, int, list]:
-		langs         = ['German', 'English', 'Albanien']
+		langs         = ['German', 'English', 'Albanisch']
 		age           = 16
-    hobbys        = ['motorcycle' , 'football' , ' Gaming']
+    hobbys        = ['motorcycle' , 'football' , ' Gaming', 'Anime']
 		
-		return langs, age, hobbys
+		return langs, age, hobbys, Anime
 	
 	@property
 	def coding() -> Tuple[dict, list, list]:
